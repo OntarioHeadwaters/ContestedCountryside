@@ -281,8 +281,6 @@ div{
 }
 .navbar{
 	list-style-type: none;
-	margin-left:25%;
-    margin-right:25%;
     margin-bottom: 0;
     margin-top:0;
 	padding:0;
@@ -296,6 +294,7 @@ div{
 .FAQlink {
     color:white;
     font-size: 16px;
+    text-decoration: underline;
 }
 .navbar li:hover{
     background-color:#0c71c3;
