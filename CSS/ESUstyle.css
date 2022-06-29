@@ -252,6 +252,7 @@ div{
 	width: 100%;
 	bottom: 0px;
 	left: 0px;
+    align-items: center;
 }
 .footernote {
 	color:rgb(255, 255, 255);
@@ -277,6 +278,27 @@ div{
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 1vw;
+}
+.navbar{
+	list-style-type: none;
+	margin-left:25%;
+    margin-right:25%;
+    margin-bottom: 0;
+    margin-top:0;
+	padding:0;
+	top:0;	
+	overflow: hidden;
+	background-color: #187ba4;
+	position: sticky;
+	display:flex;
+	justify-content: center;
+}
+.FAQlink {
+    color:white;
+    font-size: 16px;
+}
+.navbar li:hover{
+    background-color:#0c71c3;
 }
 
 
