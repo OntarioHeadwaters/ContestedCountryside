@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body { 
+    height: 100vh;
+    width: 100%;
+    color: black;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
+}
+.map{
+    overflow: hidden;
+}
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 1;
+}
+.mapbox-improve-map {
+    display: none;
+}
+/* Sidebar */
+.rounded-rect {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 50px -25px black;
+}
+.flex-center {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center.left {
+    left: 0px;
+}
+.sidebar-content {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    display: block;
+    opacity: 0.9;
+}
+.scroll{
+    overflow: auto;
+    overflow-x:hidden;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-toggle.left {
+    right: -1.5em;
+    bottom:50%;
+}
+.sidebar-toggle:hover {
+    color: #0aa1cf;
+    cursor: pointer;
+}
+.sidebar {
+    transition: transform 1s;
+    z-index: 1;
+    width: 400px;
+    height: 95%;
+}
+.left.collapsed {
+    transform: translateX(-400px);
+}
+
+/* NAVBAR */
+.nav{
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+ul {
+    height: 50px;
+    width: 650px;
+    display: flex;
+    /*background: #F2F2F2;*/
+
+    list-style: none;
+    border-radius: 40px;
+    position: relative;
+    padding: 2.5px;
+    z-index: 2;
+    background-color:#D3D3D3;
+    opacity: 0.9;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+
+.active{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(59,59,52);
+    padding-top: 7px;
+    position: absolute;
+    border-radius: 40px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    color:whitesmoke;
+}
+
+ul li {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+/* Legend */
+.legend {
+    background-color: #fff;
+    border-radius: 3px;
+    bottom: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+}
+    
+.legend h4 {
+    margin: 0 0 10px;
+}
+
+.legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+/* Jenish here*/
+.logo {
+    display:inline-block;
+    margin: 20px;
+    margin-left: -2px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    cursor:pointer;
+    color: rgb(59,59,52);
+
+}
+
+#active2{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(59,59,52);
+    padding-top: 11%;
+    position: absolute;
+    border-radius: 40px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    color:whitesmoke;
+}
+.faq {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+    color:rgb(20, 63, 220);
+    font-weight: 650;
+}
