@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    /*margin: 0px;*/
     padding: 0px;
     box-sizing: border-box;
 }
@@ -171,9 +171,9 @@ h3 {
 }
 
 p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 18px;
 }
 
 a {
@@ -200,3 +200,83 @@ a {
     color:rgb(20, 63, 220);
     font-weight: 650;
 }
+
+/*Merging from here */
+body {
+	background-color:white;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+	color: black;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
+	display: block;
+}
+
+.generalText{
+	margin-top: 0;
+	text-align: justify;
+}
+
+.homeSubHead{
+	font-weight:bold;
+	font-size:20px;
+}
+
+div{
+	display: block;
+}
+
+.grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 10vw;
+	padding-right: 10vw;
+    display: flex;
+}
+.grid2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 10vw;
+	padding-right: 10vw;
+    color:#000;
+    background-color:#f1f1f1;
+    display: flex;
+}
+.gridcontent {
+    text-align: left;
+    flex: 100%;
+}
+.footer {
+	background-color: #0c71c3;
+	position: static;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+.footernote {
+	color:rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1vw;
+}
+
+.header {
+	background-color: #0c71c3;
+	position: static;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+    font-size: 1.17em;
+}
+.headernote {
+	color:rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1vw;
+}
+
+
